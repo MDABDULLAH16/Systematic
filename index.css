@@ -1,0 +1,68 @@
+/* =====================
+common css
+========================*/
+body{
+    color: #666666;
+    font-family: "Georgia",sans-serif;
+    line-height: 1.3em;
+    font-size: 16px;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =====================
+common css
+========================*/
+
+/* ================
+top-header
+====================*/
+.top-ber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cc3333;
+    height: 50px;
+}
+.top-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+ 
+    
+}
+.top-link a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    position: relative;
+    top: 0;
+
+}
+.top-link a:hover{
+    color:deepskyblue
+}
+.input-form{
+    display: flex;
+    align-items: center;
+}
+.btn-input{
+    border-radius: 25px;
+    padding: 6px;
+    margin-right: 20px;
+}
+.btn-submit{
+    position: absolute;
+    right: 30px;
+    background-color: white;
+    border: none; 
+    
+}
+   
+
+    
